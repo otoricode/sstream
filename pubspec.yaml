@@ -1,6 +1,6 @@
 name: sstream
-description: Simple Stream
-version: 1.0.3
+description: SStream is a simplified version of StreamController which holds the lastest value broadcasted.
+version: 1.0.4
 homepage: https://www.otoritech.com
 repository: https://github.com/otoricode/sstream
 
