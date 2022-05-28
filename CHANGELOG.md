@@ -9,3 +9,7 @@
 ## 1.0.2
 
 - Update Change Log
+
+## 1.0.3
+
+- Add listen function

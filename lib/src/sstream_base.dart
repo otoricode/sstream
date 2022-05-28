@@ -18,4 +18,11 @@ class SStream<T> {
         _controller.addError(err);
         error = err;
       });
+
+  StreamSubscription<T> Function(
+    void Function(T event)? onData, {
+    Function? onError,
+    void Function()? onDone,
+    bool? cancelOnError,
+  }) get listen => stream.listen;
 }
