@@ -6,6 +6,6 @@
 
 - Add repository and homepage
 
-## 1.0.3
+## 1.0.2
 
 - Update Change Log
