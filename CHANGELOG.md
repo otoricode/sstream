@@ -13,3 +13,7 @@
 ## 1.0.3
 
 - Add listen function
+
+## 1.0.4
+
+- Detailing description
