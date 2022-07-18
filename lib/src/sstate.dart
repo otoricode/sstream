@@ -2,6 +2,8 @@ import 'package:sstream/sstream.dart';
 
 abstract class SState<T> {
   void update(T value);
+  void clear();
+  void none();
 }
 
 class State<T> extends SState<T> {
@@ -28,6 +30,16 @@ class State<T> extends SState<T> {
   @override
   void update(T value) {
     _stream.add(SValue(value));
+  }
+
+  @override
+  void clear() {
+    _stream.add(SEmpty());
+  }
+
+  @override
+  void none() {
+    _stream.add(SNone());
   }
 
   State({
