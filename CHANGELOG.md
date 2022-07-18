@@ -17,3 +17,7 @@
 ## 1.0.4
 
 - Detailing description
+
+## 1.0.5
+
+- Add State feature
