@@ -25,6 +25,7 @@ class State<T> extends SState<T> {
     _stream.add(SError(error: err));
   }
 
+  @override
   void update(T value) {
     _stream.add(SValue(value));
   }
