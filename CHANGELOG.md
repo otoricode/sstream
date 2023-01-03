@@ -21,3 +21,7 @@
 ## 1.0.5
 
 - Add State feature
+
+## 1.0.6
+
+- Add Extension

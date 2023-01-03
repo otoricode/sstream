@@ -3,7 +3,7 @@ import 'package:test/test.dart';
 
 void main() {
   group('A group of tests', () {
-    final SStream<int> awesome = SStream(0);
+    final awesome = 0.stream;
 
     setUp(() {});
 

@@ -4,5 +4,6 @@
 library sstream;
 
 export 'src/sstream_base.dart';
+export 'src/ext.dart';
 
 // TODO: Export any libraries intended for clients of this package.
